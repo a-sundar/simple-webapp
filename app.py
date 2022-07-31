@@ -1,5 +1,4 @@
 import os
-pip install flask
 from flask import Flask
 from flaskext.mysql import MySQL      # For newer versions of flask-mysql 
 # from flask.ext.mysql import MySQL   # For older versions of flask-mysql
@@ -41,3 +40,10 @@ def read():
 
 if __name__ == "__main__":
     app.run()
+
+## 4. Install and Configure Web Server
+
+Install Python Flask dependency
+
+    pip install flask
+    pip install flask-mysql
